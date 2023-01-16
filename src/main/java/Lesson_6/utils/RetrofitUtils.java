@@ -1,6 +1,5 @@
-package Lesson_5.HomeWork_5.Utils;
+package Lesson_6.utils;
 
-import Lesson_5.utils.LoggingInterceptor;
 import lombok.SneakyThrows;
 import lombok.experimental.UtilityClass;
 import okhttp3.OkHttpClient;
@@ -16,7 +15,7 @@ import java.util.Properties;
 import static okhttp3.logging.HttpLoggingInterceptor.Level.BODY;
 
 @UtilityClass //используется ломбок говорим что класс является утилитарным
-public class RetrofitUt {
+public class RetrofitUtils {
 
     Properties prop = new Properties();
     private static InputStream configFile;
@@ -32,13 +31,13 @@ public class RetrofitUt {
     @SneakyThrows
     public String getBaseUrl() {
         prop.load(configFile);
-        return prop.getProperty("url"); // читается наш урл из my properties
+        return prop.getProperty("url");
     }
 
-    //ПЕРЕХВАТЧИКИ
-    HttpLoggingInterceptor logging = new HttpLoggingInterceptor(); //стандартный перехватчик
-    LoggingInterceptor logging2 = new LoggingInterceptor();// наш рукописный перехватчик
-    OkHttpClient.Builder httpClient = new OkHttpClient.Builder();// доступ к http клиенту
+//ПЕРЕХВАТЧИКИ
+    HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
+    LoggingInterceptor logging2 = new LoggingInterceptor();
+    OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
 
 
 /*    public Retrofit getRetrofit(){
@@ -48,13 +47,15 @@ public class RetrofitUt {
                 .build();
 
     }*/
-    public Retrofit getRetrofit() {//этим методом взаимодействуем с библиотекой RETROFIT и настариваем её
+
+    public Retrofit getRetrofit(){
         logging.setLevel(BODY);//определяем уровень логирования, говорим что будем возвращать например боди
         httpClient.addInterceptor(logging2); //httpClient будет использовать перехватчик который мы указали logging2
         return new Retrofit.Builder()
                 .baseUrl(getBaseUrl()) //базовый урл
-                .addConverterFactory(JacksonConverterFactory.create()) //джексон конвертер возвращает реализацию экземпляра класса
+                .addConverterFactory(JacksonConverterFactory.create()) //джексон конвертер
                 .client(httpClient.build())
                 .build();
     }
+
 }

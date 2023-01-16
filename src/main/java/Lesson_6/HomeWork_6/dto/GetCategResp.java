@@ -1,4 +1,4 @@
-package Lesson_5.HomeWork_5.dto;
+package Lesson_6.HomeWork_6.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

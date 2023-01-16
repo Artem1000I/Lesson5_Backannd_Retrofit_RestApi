@@ -4,14 +4,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f740ee2-8943-4579-b03e-4a40a94135b9" name="Changes" comment="" />
+    <list default="true" id="3f740ee2-8943-4579-b03e-4a40a94135b9" name="Changes" comment="дз 5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/api/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/api/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/api/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/api/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/dto/GetCategoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/dto/GetCategoryResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/dto/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/dto/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/utils/LoggingInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/utils/LoggingInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson_5/utils/RetrofitUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson_5/utils/RetrofitUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CreateProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CreateProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetCategoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JWsWoDMB6Qe8lEuwhjooHRqxUH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,12 +45,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/INTELIAJI IDEA/ProjectIdea/ProjectPoGekbrainsAvito&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Lesson_5.HomeWork_5.Utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MarketTest.getCategoryByIdPositiveTest">
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson5_Backannd_Retrofit_RestApi" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lesson5_Backannd_Retrofit_RestApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_6_Backand.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeWork_5_Backand" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork_6_Backand.MarketTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MarketTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,6 +101,29 @@
       <option name="presentableId" value="Default" />
       <updated>1672205209109</updated>
     </task>
+    <task id="LOCAL-00001" summary="дз 5">
+      <created>1672403590580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672403590580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="дз 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="дз 5" />
   </component>
 </project>

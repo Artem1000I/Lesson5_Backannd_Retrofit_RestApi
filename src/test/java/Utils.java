@@ -1,6 +1,6 @@
 
 
-import Lesson_5.dto.GetCategoryResponse;
+import Lesson_6.dto.GetCategoryResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 

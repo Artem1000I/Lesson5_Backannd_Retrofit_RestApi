@@ -1,7 +1,6 @@
-package Lesson_5.HomeWork_5.api;
+package Lesson_6.HomeWork_6.api;
 
-import Lesson_5.HomeWork_5.dto.GetCategResp;
-import Lesson_5.dto.GetCategoryResponse;
+import Lesson_6.HomeWork_6.dto.GetCategResp;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

@@ -1,27 +1,15 @@
-package HomeWork_5_Backand;
+package HomeWork_6_Backand;
 
-import Lesson_5.HomeWork_5.Utils.RetrofitUt;
-import Lesson_5.HomeWork_5.api.CategorService;
-import Lesson_5.HomeWork_5.api.ProdService;
-import Lesson_5.HomeWork_5.dto.GetCategResp;
-import Lesson_5.HomeWork_5.dto.Products;
-import Lesson_5.api.ProductService;
-import Lesson_5.utils.RetrofitUtils;
+import Lesson_6.HomeWork_6.Utils.RetrofitUt;
+import Lesson_6.HomeWork_6.api.CategorService;
+import Lesson_6.HomeWork_6.api.ProdService;
+import Lesson_6.HomeWork_6.dto.GetCategResp;
 import com.github.javafaker.Faker;
-import io.cucumber.messages.types.Product;
-import io.restassured.response.ResponseBody;
 import lombok.SneakyThrows;
 import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import retrofit2.Call;
 import retrofit2.Response;
-import retrofit2.http.Body;
-import retrofit2.http.DELETE;
-import retrofit2.http.POST;
-import retrofit2.http.Path;
-
-import java.io.IOException;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;

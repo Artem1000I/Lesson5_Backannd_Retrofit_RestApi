@@ -1,7 +1,6 @@
-package Lesson_5.HomeWork_5.api;
+package Lesson_6.HomeWork_6.api;
 
-import Lesson_5.HomeWork_5.dto.Products;
-import io.cucumber.messages.types.Product;
+import Lesson_6.HomeWork_6.dto.Products;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.*;
